@@ -1,21 +1,12 @@
-
-
-
 .red-box {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-
-
-    padding: 10px;
-    margin: 10px;
-
-
-    display: flex;
-    background-color: blanchedalmond;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  background-color: blanchedalmond;
 }
 
 .red-box :hover {
-    background-color: black;
+  background-color: black;
 }

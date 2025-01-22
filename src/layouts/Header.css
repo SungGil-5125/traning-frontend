@@ -1,0 +1,31 @@
+.header {
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  background-color: black;
+}
+
+.hamberger {
+  display: flex;
+  align-items: center;
+  width: 25px;
+  margin-left: 50px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 422px;
+  height: 42px;
+  margin-left: 150px;
+  margin-top: 8px;
+  color: gray;
+}
+
+.display {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 570px;
+  margin-top: 20px;
+}
