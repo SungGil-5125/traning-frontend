@@ -1,0 +1,11 @@
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-contents-wrapper {
+  padding-top: 64px;
+  width: 100%;
+}

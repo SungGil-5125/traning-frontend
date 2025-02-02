@@ -1,0 +1,42 @@
+.sidebar-wrapper {
+  position: fixed;
+  height: 100%;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 10px;
+  color: white;
+  padding-top: 10px;
+  border: 1px solid purple;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-item {
+  width: 184px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: gray;
+  transition: all 0.3s ease; /* 애니매이션 속도 */
+  padding: 0px 20px; /* 상하 좌우 */
+  &:hover {
+    background-color: dimgrey;
+  }
+}
+
+.sidebar-line {
+  width: 192px;
+  height: 1px;
+  margin: 20px;
+  background-color: gray;
+}

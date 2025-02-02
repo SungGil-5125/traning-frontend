@@ -1,15 +1,18 @@
 .header {
+  position: fixed;
   width: 100vw;
   height: 64px;
   display: flex;
   background-color: black;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hamberger {
   display: flex;
   align-items: center;
   width: 25px;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 .input {
@@ -17,8 +20,7 @@
   align-items: center;
   width: 422px;
   height: 42px;
-  margin-left: 150px;
-  margin-top: 8px;
+  margin-right: 500px;
   color: gray;
 }
 
@@ -26,6 +28,19 @@
   display: flex;
   width: 24px;
   height: 24px;
-  margin-left: 570px;
-  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.profile {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.display-profile {
+  display: flex;
 }
