@@ -1,7 +1,7 @@
 import Header from '../../components/Header/Header';
 import Main from '../../components/Main/Main';
 import Sidebar from '../../components/Sidebar/Sidebar';
-import './AppleHomepage.css';
+import './Homepage.css';
 
 export default function AppleHomepage() {
   return (

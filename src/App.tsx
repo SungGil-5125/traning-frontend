@@ -1,5 +1,5 @@
 import './App.css';
-import AppleHomepage from './pages/AppleHomepage/AppleHomepage';
+import AppleHomepage from './pages/Homepage/Homepage';
 
 function App() {
   return (
